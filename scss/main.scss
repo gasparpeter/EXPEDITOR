@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+$primary-color: #3f454c;
+$btn-color: #e75748;
+$light-pink: #e9ebf3;
+$title-color: #2c405b;
+
+// header{
+//     position: relative;
+//     width: 90%;
+//     height: 220px;
+//     background-color: #3f454c;
+//     margin: 0 auto;
+// }
+
+header{
+    display: flex;
+    position:relative;
+    height:300px;
+    width:95%;
+    background-color:	#3f454c;
+    display:flex;
+    margin:auto;
+
+    #news{
+        width:175px;
+        height:315px;
+        background-color:#324157;
+        margin:0;
+        padding:0;
+        display:flex;
+        position:absolute;
+        bottom:-10px;
+        left:11em;
+        transform: skewX(-10deg);
+        color:#fff;
+        justify-content:center;
+        text-align:center;
+        align-content:center;
+        opacity: 0.9;
+
+        #line{
+            width:70px;
+            height:1px;
+            background-color:#FF4500;
+            position:relative;
+            top:11em;
+            right:45px;
+          }
+          
+        h2{
+            position:relative;
+            top:40%;
+            left:25%;
+            font-size:30px;
+        }
+    }
+        
+}
+  
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    position:absolute;
+    z-index:50;
+    width:95%;
+    margin: 20px auto;
+    height:50px;
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        height: 100%;
+        position: relative;
+        right: 80px;
+
+
+        img{
+            width: 50px;
+            height: 40px;
+        }
+    }
+
+    ul{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+
+       li{
+           list-style-type: none;
+       }
+    }
+
+    .search{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 20px;
+    }
+
+    .quote-btn{
+        width:120px;
+        height:40px;
+        float:right;
+        border-radius:20px;  
+        background:#FF4500;
+        color:#fff;
+        border:none;
+        cursor:pointer;
+        position: relative;
+        left: 70px;
+    }
+}
+  
+  
+  
+  
+  
